@@ -1,0 +1,18 @@
+.TaskList {
+  margin: 0;
+  padding: 10px 0 10px;
+  list-style: none;
+  overflow: scroll;
+  /* Quitar las barras del scroll */
+  scrollbar-width: none;
+
+  /* Para navegadores Firefox */
+  -ms-overflow-style: none;
+
+  /* Para navegadores Chrome, Edge y Safari */
+  &::-webkit-scrollbar {
+    display: none;
+  }
+
+  height: 400px;
+}

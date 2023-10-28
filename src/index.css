@@ -1,0 +1,93 @@
+@import url("https://fonts.googleapis.com/css2?family=Pacifico&family=Poppins:ital,wght@0,200;1,300&display=swap");
+
+:root {
+  --dark: #0a2239;
+  --blue: #1d84b5;
+  --secondary: #53a2be;
+  --danger: #e74c3c;
+  --light: #e2f0f3;
+  --success: #79d076;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, "Poppins", "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.main {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.bg-dark {
+  background-color: var(--dark);
+}
+
+.bg-blue {
+  background-color: var(--blue);
+}
+
+.bg-light {
+  background-color: var(--light);
+}
+
+.bg-success {
+  background-color: var(--success);
+}
+
+.bg-secondary {
+  background-color: var(--secondary);
+}
+
+.p-2 {
+  padding: 1rem;
+}
+
+.mt-2 {
+  margin-top: 1rem;
+}
+
+.rounded-2 {
+  border-radius: 1.2rem;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-light {
+  color: var(--light);
+}
+
+.btn-success {
+  background-color: var(--success);
+  color: var(--light);
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.btn-danger {
+  background-color: var(--danger);
+  color: var(--light);
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
